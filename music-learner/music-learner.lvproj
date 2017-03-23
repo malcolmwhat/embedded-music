@@ -1613,8 +1613,14 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="music-learner-mcu.lvtest" Type="TestItem" URL="../music-learner-mcu.lvtest">
+			<Property Name="utf.test.bind" Type="Str">music-learner-mcu.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">E29CC742-78CD-0350-79D6-F3C121FF446E</Property>
+		</Item>
 		<Item Name="music-learner-mcu.vi" Type="VI" URL="../music-learner-mcu.vi"/>
-		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="neuron-mcu.vi" Type="VI" URL="../neuron-mcu.vi"/>
+		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 </Project>
